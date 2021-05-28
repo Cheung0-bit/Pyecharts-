@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/jiangsu.js"></script>
+
+</head>
+<body>
+    <div id="a7ee600f06d44c03aea389f450019286" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_a7ee600f06d44c03aea389f450019286 = echarts.init(
+            document.getElementById('a7ee600f06d44c03aea389f450019286'), 'white', {renderer: 'canvas'});
+        var option_a7ee600f06d44c03aea389f450019286 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar3D",
+            "name": "\u96e8\u5929",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 1,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "stack": "datas",
+            "minHeight": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "\u5357\u4eac\u5e02",
+                    "value": [
+                        118.806388,
+                        32.071209,
+                        102
+                    ]
+                },
+                {
+                    "name": "\u5f90\u5dde\u5e02",
+                    "value": [
+                        117.283988,
+                        34.203994,
+                        77
+                    ]
+                },
+                {
+                    "name": "\u5bbf\u8fc1\u5e02",
+                    "value": [
+                        118.275162,
+                        33.963008,
+                        83
+                    ]
+                },
+                {
+                    "name": "\u8fde\u4e91\u6e2f\u5e02",
+                    "value": [
+                        119.221573,
+                        34.59637,
+                        76
+                    ]
+                },
+                {
+                    "name": "\u6dee\u5b89\u5e02",
+                    "value": [
+                        119.112997,
+                        33.550945,
+                        92
+                    ]
+                },
+                {
+                    "name": "\u76d0\u57ce\u5e02",
+                    "value": [
+                        120.162417,
+                        33.34832,
+                        76
+                    ]
+                },
+                {
+                    "name": "\u626c\u5dde\u5e02",
+                    "value": [
+                        119.412868,
+                        32.394285,
+                        102
+                    ]
+                },
+                {
+                    "name": "\u6cf0\u5dde\u5e02",
+                    "value": [
+                        119.980546,
+                        32.528857,
+                        99
+                    ]
+                },
+                {
+                    "name": "\u5357\u901a\u5e02",
+                    "value": [
+                        120.894671,
+                        31.981434,
+                        92
+                    ]
+                },
+                {
+                    "name": "\u9547\u6c5f\u5e02",
+                    "value": [
+                        119.424756,
+                        32.188089,
+                        98
+                    ]
+                },
+                {
+                    "name": "\u5e38\u5dde\u5e02",
+                    "value": [
+                        119.974029,
+                        31.810916,
+                        106
+                    ]
+                },
+                {
+                    "name": "\u65e0\u9521\u5e02",
+                    "value": [
+                        120.311889,
+                        31.491064,
+                        128
+                    ]
+                },
+                {
+                    "name": "\u82cf\u5dde\u5e02",
+                    "value": [
+                        120.585197,
+                        31.299473,
+                        113
+                    ]
+                }
+            ],
+            "shading": "lambert",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        },
+        {
+            "type": "bar3D",
+            "name": "\u6674\u5929",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 1,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "stack": "datas",
+            "minHeight": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "\u5357\u4eac\u5e02",
+                    "value": [
+                        118.806388,
+                        32.071209,
+                        125
+                    ]
+                },
+                {
+                    "name": "\u5f90\u5dde\u5e02",
+                    "value": [
+                        117.283988,
+                        34.203994,
+                        167
+                    ]
+                },
+                {
+                    "name": "\u5bbf\u8fc1\u5e02",
+                    "value": [
+                        118.275162,
+                        33.963008,
+                        143
+                    ]
+                },
+                {
+                    "name": "\u8fde\u4e91\u6e2f\u5e02",
+                    "value": [
+                        119.221573,
+                        34.59637,
+                        175
+                    ]
+                },
+                {
+                    "name": "\u6dee\u5b89\u5e02",
+                    "value": [
+                        119.112997,
+                        33.550945,
+                        180
+                    ]
+                },
+                {
+                    "name": "\u76d0\u57ce\u5e02",
+                    "value": [
+                        120.162417,
+                        33.34832,
+                        130
+                    ]
+                },
+                {
+                    "name": "\u626c\u5dde\u5e02",
+                    "value": [
+                        119.412868,
+                        32.394285,
+                        130
+                    ]
+                },
+                {
+                    "name": "\u6cf0\u5dde\u5e02",
+                    "value": [
+                        119.980546,
+                        32.528857,
+                        111
+                    ]
+                },
+                {
+                    "name": "\u5357\u901a\u5e02",
+                    "value": [
+                        120.894671,
+                        31.981434,
+                        136
+                    ]
+                },
+                {
+                    "name": "\u9547\u6c5f\u5e02",
+                    "value": [
+                        119.424756,
+                        32.188089,
+                        131
+                    ]
+                },
+                {
+                    "name": "\u5e38\u5dde\u5e02",
+                    "value": [
+                        119.974029,
+                        31.810916,
+                        137
+                    ]
+                },
+                {
+                    "name": "\u65e0\u9521\u5e02",
+                    "value": [
+                        120.311889,
+                        31.491064,
+                        100
+                    ]
+                },
+                {
+                    "name": "\u82cf\u5dde\u5e02",
+                    "value": [
+                        120.585197,
+                        31.299473,
+                        129
+                    ]
+                }
+            ],
+            "shading": "lambert",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        },
+        {
+            "type": "bar3D",
+            "name": "\u591a\u4e91",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 1.5,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "stack": "datas",
+            "minHeight": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "\u5357\u4eac\u5e02",
+                    "value": [
+                        118.806388,
+                        32.071209,
+                        120
+                    ]
+                },
+                {
+                    "name": "\u5f90\u5dde\u5e02",
+                    "value": [
+                        117.283988,
+                        34.203994,
+                        115
+                    ]
+                },
+                {
+                    "name": "\u5bbf\u8fc1\u5e02",
+                    "value": [
+                        118.275162,
+                        33.963008,
+                        122
+                    ]
+                },
+                {
+                    "name": "\u8fde\u4e91\u6e2f\u5e02",
+                    "value": [
+                        119.221573,
+                        34.59637,
+                        110
+                    ]
+                },
+                {
+                    "name": "\u6dee\u5b89\u5e02",
+                    "value": [
+                        119.112997,
+                        33.550945,
+                        81
+                    ]
+                },
+                {
+                    "name": "\u76d0\u57ce\u5e02",
+                    "value": [
+                        120.162417,
+                        33.34832,
+                        140
+                    ]
+                },
+                {
+                    "name": "\u626c\u5dde\u5e02",
+                    "value": [
+                        119.412868,
+                        32.394285,
+                        118
+                    ]
+                },
+                {
+                    "name": "\u6cf0\u5dde\u5e02",
+                    "value": [
+                        119.980546,
+                        32.528857,
+                        141
+                    ]
+                },
+                {
+                    "name": "\u5357\u901a\u5e02",
+                    "value": [
+                        120.894671,
+                        31.981434,
+                        125
+                    ]
+                },
+                {
+                    "name": "\u9547\u6c5f\u5e02",
+                    "value": [
+                        119.424756,
+                        32.188089,
+                        123
+                    ]
+                },
+                {
+                    "name": "\u5e38\u5dde\u5e02",
+                    "value": [
+                        119.974029,
+                        31.810916,
+                        108
+                    ]
+                },
+                {
+                    "name": "\u65e0\u9521\u5e02",
+                    "value": [
+                        120.311889,
+                        31.491064,
+                        101
+                    ]
+                },
+                {
+                    "name": "\u82cf\u5dde\u5e02",
+                    "value": [
+                        120.585197,
+                        31.299473,
+                        101
+                    ]
+                }
+            ],
+            "shading": "lambert",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        },
+        {
+            "type": "bar3D",
+            "name": "\u96ea\u5929",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 2.6,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "stack": "datas",
+            "minHeight": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "\u5357\u4eac\u5e02",
+                    "value": [
+                        118.806388,
+                        32.071209,
+                        3
+                    ]
+                },
+                {
+                    "name": "\u5f90\u5dde\u5e02",
+                    "value": [
+                        117.283988,
+                        34.203994,
+                        2
+                    ]
+                },
+                {
+                    "name": "\u5bbf\u8fc1\u5e02",
+                    "value": [
+                        118.275162,
+                        33.963008,
+                        3
+                    ]
+                },
+                {
+                    "name": "\u8fde\u4e91\u6e2f\u5e02",
+                    "value": [
+                        119.221573,
+                        34.59637,
+                        2
+                    ]
+                },
+                {
+                    "name": "\u6dee\u5b89\u5e02",
+                    "value": [
+                        119.112997,
+                        33.550945,
+                        9
+                    ]
+                },
+                {
+                    "name": "\u76d0\u57ce\u5e02",
+                    "value": [
+                        120.162417,
+                        33.34832,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u626c\u5dde\u5e02",
+                    "value": [
+                        119.412868,
+                        32.394285,
+                        3
+                    ]
+                },
+                {
+                    "name": "\u6cf0\u5dde\u5e02",
+                    "value": [
+                        119.980546,
+                        32.528857,
+                        2
+                    ]
+                },
+                {
+                    "name": "\u5357\u901a\u5e02",
+                    "value": [
+                        120.894671,
+                        31.981434,
+                        4
+                    ]
+                },
+                {
+                    "name": "\u9547\u6c5f\u5e02",
+                    "value": [
+                        119.424756,
+                        32.188089,
+                        3
+                    ]
+                },
+                {
+                    "name": "\u5e38\u5dde\u5e02",
+                    "value": [
+                        119.974029,
+                        31.810916,
+                        4
+                    ]
+                },
+                {
+                    "name": "\u65e0\u9521\u5e02",
+                    "value": [
+                        120.311889,
+                        31.491064,
+                        0
+                    ]
+                },
+                {
+                    "name": "\u82cf\u5dde\u5e02",
+                    "value": [
+                        120.585197,
+                        31.299473,
+                        5
+                    ]
+                }
+            ],
+            "shading": "lambert",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        },
+        {
+            "type": "bar3D",
+            "name": "\u5176\u5b83",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 2,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "stack": "datas",
+            "minHeight": 2,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "\u5357\u4eac\u5e02",
+                    "value": [
+                        118.806388,
+                        32.071209,
+                        15
+                    ]
+                },
+                {
+                    "name": "\u5f90\u5dde\u5e02",
+                    "value": [
+                        117.283988,
+                        34.203994,
+                        4
+                    ]
+                },
+                {
+                    "name": "\u5bbf\u8fc1\u5e02",
+                    "value": [
+                        118.275162,
+                        33.963008,
+                        14
+                    ]
+                },
+                {
+                    "name": "\u8fde\u4e91\u6e2f\u5e02",
+                    "value": [
+                        119.221573,
+                        34.59637,
+                        2
+                    ]
+                },
+                {
+                    "name": "\u6dee\u5b89\u5e02",
+                    "value": [
+                        119.112997,
+                        33.550945,
+                        3
+                    ]
+                },
+                {
+                    "name": "\u76d0\u57ce\u5e02",
+                    "value": [
+                        120.162417,
+                        33.34832,
+                        18
+                    ]
+                },
+                {
+                    "name": "\u626c\u5dde\u5e02",
+                    "value": [
+                        119.412868,
+                        32.394285,
+                        12
+                    ]
+                },
+                {
+                    "name": "\u6cf0\u5dde\u5e02",
+                    "value": [
+                        119.980546,
+                        32.528857,
+                        12
+                    ]
+                },
+                {
+                    "name": "\u5357\u901a\u5e02",
+                    "value": [
+                        120.894671,
+                        31.981434,
+                        8
+                    ]
+                },
+                {
+                    "name": "\u9547\u6c5f\u5e02",
+                    "value": [
+                        119.424756,
+                        32.188089,
+                        10
+                    ]
+                },
+                {
+                    "name": "\u5e38\u5dde\u5e02",
+                    "value": [
+                        119.974029,
+                        31.810916,
+                        10
+                    ]
+                },
+                {
+                    "name": "\u65e0\u9521\u5e02",
+                    "value": [
+                        120.311889,
+                        31.491064,
+                        36
+                    ]
+                },
+                {
+                    "name": "\u82cf\u5dde\u5e02",
+                    "value": [
+                        120.585197,
+                        31.299473,
+                        17
+                    ]
+                }
+            ],
+            "shading": "lambert",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u96e8\u5929",
+                "\u6674\u5929",
+                "\u591a\u4e91",
+                "\u96ea\u5929",
+                "\u5176\u5b83"
+            ],
+            "selected": {
+                "\u96e8\u5929": true,
+                "\u6674\u5929": true,
+                "\u591a\u4e91": true,
+                "\u96ea\u5929": true,
+                "\u5176\u5b83": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "geo3D": {
+        "map": "\u6c5f\u82cf",
+        "boxWidth": 100,
+        "boxHeight": 10,
+        "regionHeight": 3,
+        "groundPlane": {
+            "show": false,
+            "color": "#aaa"
+        },
+        "instancing": false,
+        "itemStyle": {
+            "color": "rgb(5,101,123)",
+            "borderColor": "rgb(62,215,213)",
+            "borderWidth": 0.8,
+            "opacity": 1
+        },
+        "label": {
+            "show": false,
+            "formatter": function(data){return data.name +  + data.value[2];}
+        },
+        "emphasis": {
+            "label": {
+                "show": false,
+                "position": "top",
+                "color": "#fff",
+                "margin": 8,
+                "fontSize": 10,
+                "backgroundColor": "rgba(0,255,127,0)"
+            }
+        },
+        "light": {
+            "main": {
+                "color": "#F5DEB3",
+                "intensity": 1.2,
+                "shadow": false,
+                "shadowQuality": "high",
+                "alpha": 40,
+                "beta": 10
+            },
+            "ambient": {
+                "color": "#fff",
+                "intensity": 0.3
+            },
+            "ambientCubemap": {
+                "diffuseIntensity": 0.5,
+                "specularIntensity": 0.5
+            }
+        },
+        "temporalSuperSampling": {
+            "enable": "auto"
+        },
+        "zlevel": -10,
+        "left": "auto",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "width": "auto",
+        "height": "auto"
+    },
+    "title": [
+        {
+            "text": "2013\u5e74\u5929\u6c14\u60c5\u51b5\u5206\u5e03\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_a7ee600f06d44c03aea389f450019286.setOption(option_a7ee600f06d44c03aea389f450019286);
+    </script>
+</body>
+</html>
